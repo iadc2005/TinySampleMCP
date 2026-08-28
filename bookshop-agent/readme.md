@@ -2,6 +2,10 @@
 
 Welcome to your new CAP project.
 
+It is used for SAP Application Frontend Service usage with IAS as authentication grant.
+
+And it is a tiny e2e fullstack application which exposes MCP and leverages SAP AI Core as a agent LLM.
+
 It contains these folders and files, following our recommended project layout:
 
 File or Folder | Purpose
