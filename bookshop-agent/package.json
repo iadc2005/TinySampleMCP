@@ -1,0 +1,47 @@
+{
+  "name": "bookshop-agent",
+  "version": "1.0.0",
+  "dependencies": {
+    "@cap-js/agents": "^0.9.2",
+    "@cap-js/hana": "^2",
+    "@cap-js/mcp": "^1.4.3",
+    "@sap/cds": "^9",
+    "@sap/xssec": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2",
+    "@sap/cds-dk": "^10"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "private": true,
+  "cds": {
+    "requires": {
+      "llm": {
+        "kind": "anthropic",
+        "model": "claude-haiku-4-5"
+      },
+      "aicore": {
+        "kind": "aicore"
+      },
+      "[production]": {
+        "auth": "ias",
+        "llm": {
+          "kind": "aicore",
+          "model": "anthropic--claude-4.6-sonnet"
+        }
+      },
+      "[hybrid]": {
+        "llm": {
+          "kind": "aicore",
+          "model": "anthropic--claude-4.6-sonnet"
+        }
+      },
+      "app-front": true
+    },
+    "server": {
+      "index": true
+    }
+  }
+}

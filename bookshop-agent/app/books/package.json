@@ -1,0 +1,17 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@ui5/cli": "^4",
+    "ui5-task-zipper": "^3"
+  },
+  "scripts": {
+    "build": "ui5 build --clean-dest --dest dist"
+  },
+  "ui5": {
+    "dependencies": [
+      "ui5-task-zipper"
+    ]
+  }
+}

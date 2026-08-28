@@ -1,0 +1,6 @@
+#2026 08 27 09:11:34.628#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-app-deployer_bookshop-agent-app-front#flowable-async-job-executor-thread-2558#
+[PollDeployContentStatusExecution] [bookshop-agent-app-deployer] [INFO] Deployment of contentId: 3c57617c-5774-43fd-af3a-6ebd65499653 has started#
+#2026 08 27 09:11:34.628#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-app-deployer_bookshop-agent-app-front#flowable-async-job-executor-thread-2558#
+[PollDeployContentStatusExecution] [bookshop-agent-app-deployer] [INFO] Using configuration from current deployment#
+#2026 08 27 09:11:34.628#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-app-deployer_bookshop-agent-app-front#flowable-async-job-executor-thread-2558#
+[PollDeployContentStatusExecution] [bookshop-agent-app-deployer] [INFO] Deployment of contentId: 3c57617c-5774-43fd-af3a-6ebd65499653 has finished successfully#

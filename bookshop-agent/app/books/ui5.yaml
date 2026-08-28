@@ -1,0 +1,12 @@
+specVersion: "3.1"
+metadata:
+  name: bookshop.books
+type: application
+builder:
+  customTasks:
+    - name: ui5-task-zipper
+      afterTask: generateCachebusterInfo
+      configuration:
+        archiveName: books
+        additionalFiles:
+          - xs-app.json

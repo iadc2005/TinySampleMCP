@@ -1,0 +1,822 @@
+#2026 08 27 09:11:54.660#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2591#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:16.723719] Added process: "web" (STDOUT, API)#
+#2026 08 27 09:11:54.660#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2591#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:16.731867] Created app with guid fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 (STDOUT, API)#
+#2026 08 27 09:11:54.660#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2591#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:16.825025] Updating process: "web" (STDOUT, API)#
+#2026 08 27 09:11:54.660#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2591#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:16.901381] Scaling process: "web" (STDOUT, API)#
+#2026 08 27 09:11:54.660#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2591#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:34.641869] Uploading app package for app with guid fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 (STDOUT, API)#
+#2026 08 27 09:11:54.660#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2591#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:34.837038] Updated app with guid fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 08 27 09:11:54.660#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2591#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:44.836520] Creating build for app with guid fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 (STDOUT, API)#
+#2026 08 27 09:11:54.660#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2591#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:45.240718] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 08 27 09:12:04.812#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12417#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:57.598002] Downloaded nodejs_buildpack (618.1M) (STDOUT, STG)#
+#2026 08 27 09:12:04.812#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12417#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:57.598084] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 creating container for instance 96576ebc-d2a0-4f37-bc28-b437a59978f7 (STDOUT, STG)#
+#2026 08 27 09:12:04.812#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12417#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:58.439583] Security group rules were updated (STDOUT, STG)#
+#2026 08 27 09:12:04.812#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12417#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:58.529741] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 successfully created container for instance 96576ebc-d2a0-4f37-bc28-b437a59978f7 (STDOUT, STG)#
+#2026 08 27 09:12:04.812#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12417#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:59.240545] Downloading app package... (STDOUT, STG)#
+#2026 08 27 09:12:04.812#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12417#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:00.580447] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 08 27 09:12:04.812#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12417#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:00.662556] -----> Nodejs Buildpack version 1.9.3 (STDOUT, STG)#
+#2026 08 27 09:12:04.812#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12417#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:00.762182] -----> Bootstrapping python (STDOUT, STG)#
+#2026 08 27 09:12:04.812#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12417#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:00.762217] -----> Installing python 3.13.14 (STDOUT, STG)#
+#2026 08 27 09:12:04.812#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12417#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:00.762245] Copy [/tmp/buildpacks/fca214f8c6e938dc/dependencies/4b4266a2ff36730aef37b88b668ca327/python_3.13.14_linux_x64_cflinuxfs4_b80d4954.tgz] (STDOUT, STG)#
+#2026 08 27 09:12:04.812#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12417#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:04.185452] -----> Installing binaries (STDOUT, STG)#
+#2026 08 27 09:12:04.812#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12417#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:04.185554] engines.node (package.json): ^24 (STDOUT, STG)#
+#2026 08 27 09:12:04.812#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12417#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:04.185569] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 08 27 09:12:04.812#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12417#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:04.185684] -----> Installing node 24.18.0 (STDOUT, STG)#
+#2026 08 27 09:12:04.812#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12417#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:04.185900] Copy [/tmp/buildpacks/fca214f8c6e938dc/dependencies/dffbbb835fcd073c4544f78eb6247fac/node_24.18.0_linux_x64_cflinuxfs4_cdfed650.tgz] (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.282040] Using default npm version: 11.16.0 (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.282066] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.282122] Copy [/tmp/buildpacks/fca214f8c6e938dc/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.562797] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.562814] -----> Creating runtime environment (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.564268] NODE_ENV=production (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.564287] NODE_HOME=/tmp/contents1706092843/deps/0/node (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.564290] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.564291] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.564298] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.564305] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.564342] -----> Building dependencies (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.564344] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.564349] Rebuilding any native modules (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:07.016663] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:07.069909] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:07.456243] up to date in 323ms (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:07.456530] 4 packages are looking for funding (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:07.456551] run `npm fund` for details (STDOUT, STG)#
+#2026 08 27 09:12:14.949#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-12453#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:07.908335] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 08 27 09:12:24.977#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2656#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:15.981783] Exit status 0 (STDOUT, STG)#
+#2026 08 27 09:12:24.977#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2656#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:15.981831] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 08 27 09:12:24.977#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2656#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:15.981866] Uploading droplet... (STDOUT, STG)#
+#2026 08 27 09:12:24.977#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2656#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:15.981966] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 08 27 09:12:24.977#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2656#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:16.022156] Uploaded build artifacts cache (214B) (STDOUT, STG)#
+#2026 08 27 09:12:24.977#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2656#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:16.582260] Creating droplet for app with guid fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 (STDOUT, API)#
+#2026 08 27 09:12:24.977#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2656#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:18.651172] Uploaded droplet (59.2M) (STDOUT, STG)#
+#2026 08 27 09:12:24.977#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2656#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:18.667384] Uploading complete (STDOUT, STG)#
+#2026 08 27 09:12:24.977#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2656#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:18.889294] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 stopping instance 96576ebc-d2a0-4f37-bc28-b437a59978f7 (STDOUT, STG)#
+#2026 08 27 09:12:24.977#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2656#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:18.889319] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 destroying container for instance 96576ebc-d2a0-4f37-bc28-b437a59978f7 (STDOUT, STG)#
+#2026 08 27 09:12:24.977#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2656#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:18.946222] Staging complete for build 96576ebc-d2a0-4f37-bc28-b437a59978f7 (STDOUT, API)#
+#2026 08 27 09:12:24.977#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2656#
+[PollStageAppStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:23.238590] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 successfully destroyed container for instance 96576ebc-d2a0-4f37-bc28-b437a59978f7 (STDOUT, STG)#
+#2026 08 27 09:12:35.055#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:16.723719] Added process: "web" (STDOUT, API)#
+#2026 08 27 09:12:35.055#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:16.731867] Created app with guid fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 (STDOUT, API)#
+#2026 08 27 09:12:35.055#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:16.825025] Updating process: "web" (STDOUT, API)#
+#2026 08 27 09:12:35.055#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:16.901381] Scaling process: "web" (STDOUT, API)#
+#2026 08 27 09:12:35.055#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:34.641869] Uploading app package for app with guid fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 (STDOUT, API)#
+#2026 08 27 09:12:35.055#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:34.837038] Updated app with guid fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:44.836520] Creating build for app with guid fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 (STDOUT, API)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:45.240718] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:57.598002] Downloaded nodejs_buildpack (618.1M) (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:57.598084] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 creating container for instance 96576ebc-d2a0-4f37-bc28-b437a59978f7 (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:58.439583] Security group rules were updated (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:58.529741] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 successfully created container for instance 96576ebc-d2a0-4f37-bc28-b437a59978f7 (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:11:59.240545] Downloading app package... (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:00.580447] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:00.662556] -----> Nodejs Buildpack version 1.9.3 (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:00.762182] -----> Bootstrapping python (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:00.762217] -----> Installing python 3.13.14 (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:00.762245] Copy [/tmp/buildpacks/fca214f8c6e938dc/dependencies/4b4266a2ff36730aef37b88b668ca327/python_3.13.14_linux_x64_cflinuxfs4_b80d4954.tgz] (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:04.185452] -----> Installing binaries (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:04.185554] engines.node (package.json): ^24 (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:04.185569] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:04.185684] -----> Installing node 24.18.0 (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:04.185900] Copy [/tmp/buildpacks/fca214f8c6e938dc/dependencies/dffbbb835fcd073c4544f78eb6247fac/node_24.18.0_linux_x64_cflinuxfs4_cdfed650.tgz] (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.282040] Using default npm version: 11.16.0 (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.282066] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.282122] Copy [/tmp/buildpacks/fca214f8c6e938dc/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.562797] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.562814] -----> Creating runtime environment (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.564268] NODE_ENV=production (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.564287] NODE_HOME=/tmp/contents1706092843/deps/0/node (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.564290] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.564291] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.564298] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.564305] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.564342] -----> Building dependencies (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.564344] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:06.564349] Rebuilding any native modules (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:07.016663] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:07.069909] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:07.456243] up to date in 323ms (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:07.456530] 4 packages are looking for funding (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:07.456551] run `npm fund` for details (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:07.908335] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:15.981783] Exit status 0 (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:15.981831] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:15.981866] Uploading droplet... (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:15.981966] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:16.022156] Uploaded build artifacts cache (214B) (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:16.582260] Creating droplet for app with guid fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 (STDOUT, API)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:18.651172] Uploaded droplet (59.2M) (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:18.667384] Uploading complete (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:18.889294] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 stopping instance 96576ebc-d2a0-4f37-bc28-b437a59978f7 (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:18.889319] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 destroying container for instance 96576ebc-d2a0-4f37-bc28-b437a59978f7 (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:18.946222] Staging complete for build 96576ebc-d2a0-4f37-bc28-b437a59978f7 (STDOUT, API)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:23.238590] Cell 0c0e7a5b-362b-4cc5-bf41-a2829fd93490 successfully destroyed container for instance 96576ebc-d2a0-4f37-bc28-b437a59978f7 (STDOUT, STG)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:25.042836] Updated app with guid fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 ({:droplet_guid=>"b5d1f629-ecb1-4532-ac9a-d34cb8d36c39"}) (STDOUT, API)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:25.552221] Cell 43386be6-c840-4182-9229-17ae14ec6595 creating container for instance 5ecf4b8d-e8ee-4fbd-ad53-ce124ba7c3a9 (STDOUT, CELL)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:26.041277] Security group rules were updated (STDOUT, CELL)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:26.122455] Cell 43386be6-c840-4182-9229-17ae14ec6595 successfully created container for instance 5ecf4b8d-e8ee-4fbd-ad53-ce124ba7c3a9 (STDOUT, CELL)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.356267] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.501936] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.804529] > start (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.804560] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.908922] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909395] { (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909413] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909418] { (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909421] "name": "bookshop-agent-db", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909424] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909426] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909427] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909430] "schema": "A6059A5D45CD492FA68155272CF79DE7", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909431] "database_id": "a4b60d3e-10c2-433f-abd0-6e817e143e99", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909436] "user": "A6059A5D45CD492FA68155272CF79DE7_CTON7Z7T8DAOVVY0CIJ0DU2EC_RT", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909439] "hdi_user": "A6059A5D45CD492FA68155272CF79DE7_CTON7Z7T8DAOVVY0CIJ0DU2EC_DT" (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909441] }, (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909443] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909444] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909446] "database", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909448] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909449] ] (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909451] } (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909452] ] (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:29.909454] } (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.313573] @sap/hdi-deploy, version 5.7.0 (mode default), server version 4.00.000.00.1787043349 (4.0.0.0), cloud version 2026.14.16, node version 24.18.0, HDI version 1016, container API version 1007 (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.313667] Deployment started at 2026-08-27 09:12:30 (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.313825] Using hdb@2.29.6 for connection (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.327947] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.327994] Collecting files... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.330892] Collecting files... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.330914] 3 directories collected (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.330926] 21 files collected (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.330928] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.330931] Target service: bookshop-agent-db (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.534616] Could not determine status of last build: Could not find any information about the previous deployment. (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.534652] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.534784] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.534863] Processing grants files... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.534968] Processing grants files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.536831] Preprocessing files... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.537021] Preprocessing files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.537088] Connecting to the container "A6059A5D45CD492FA68155272CF79DE7"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.604149] Connecting to the container "A6059A5D45CD492FA68155272CF79DE7"... ok (0s 67ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.604179] Locking the container "A6059A5D45CD492FA68155272CF79DE7"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.777542] Locking the container "A6059A5D45CD492FA68155272CF79DE7"... ok (0s 173ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.777551] Synchronizing files with the container "A6059A5D45CD492FA68155272CF79DE7"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:30.958805] Deleting files... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.073668] Deleting files... ok (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.073688] Writing files... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.073843] Writing 24 items (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401353] Writing files... ok (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401373] Synchronizing files with the container "A6059A5D45CD492FA68155272CF79DE7"... ok (0s 624ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401770] added files: [ (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401793] "src/gen/.hdiconfig", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401797] "src/gen/.hdinamespace", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401799] "src/gen/CatalogMcpService.Books.hdbview", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401802] "src/gen/CatalogService.Books.hdbview", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401805] "src/gen/cap.agent.CheckpointWrites.hdbtable", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401807] "src/gen/cap.agent.Checkpoints.hdbtable", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401813] "src/gen/cap.agent.PushNotificationConfigs.hdbtable", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401815] "src/gen/cap.agent.Tasks.hdbtable", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401822] "src/gen/cap.agent.Tasks_inputFiles.hdbtable", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401823] "src/gen/cap.agent.Tasks_outputFiles.hdbtable", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401825] "src/gen/cds.outbox.Messages.hdbtable", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401827] "src/gen/data/my.bookshop-Books.csv", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401829] "src/gen/data/my.bookshop-Books.hdbtabledata", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401831] "src/gen/data/sap.attachments-ScanStates.csv", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401833] "src/gen/data/sap.attachments-ScanStates.hdbtabledata", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401835] "src/gen/data/sap.attachments-ScanStates_texts.csv", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401839] "src/gen/data/sap.attachments-ScanStates_texts.hdbtabledata", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401841] "src/gen/localized.sap.attachments.ScanStates.hdbview", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401843] "src/gen/my.bookshop.Books.hdbtable", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401845] "src/gen/sap.attachments.ScanStates.hdbtable", (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401847] "src/gen/sap.attachments.ScanStates_texts.hdbtable" (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401849] ] (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401852] modified files: [] (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401856] deleted files: [] (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.401871] 21 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.402093] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.402311] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.402327] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:31.402555] Deploying to the container "A6059A5D45CD492FA68155272CF79DE7"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:32.002771] Polling messages for request id: 14 (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:32.027819] Starting make in the container "A6059A5D45CD492FA68155272CF79DE7" with 21 files to deploy, 0 files to undeploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:32.027858] Disabling table replication for the container schema "A6059A5D45CD492FA68155272CF79DE7"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:32.027867] Disabling table replication for the container schema "A6059A5D45CD492FA68155272CF79DE7"... ok (0s 6ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:32.027895] Migrating libraries... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:32.027918] Migrating libraries... ok (0s 14ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:32.027923] Making... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:32.027926] Preparing... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:32.027932] Preparing the make transaction... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037038] Preparing the make transaction... ok (0s 511ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037137] Deploying the configuration file "src/gen/.hdiconfig"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037152] Deploying the configuration file "src/gen/.hdiconfig"... ok (0s 33ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037155] Deploying the namespace file "src/gen/.hdinamespace"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037158] Deploying the namespace file "src/gen/.hdinamespace"... ok (0s 16ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037160] Adding "src/gen/CatalogMcpService.Books.hdbview" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037166] Adding "src/gen/CatalogMcpService.Books.hdbview" for deploy... ok (0s 21ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037170] Adding "src/gen/CatalogService.Books.hdbview" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037173] Adding "src/gen/CatalogService.Books.hdbview" for deploy... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037194] Adding "src/gen/cap.agent.CheckpointWrites.hdbtable" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037202] Adding "src/gen/cap.agent.CheckpointWrites.hdbtable" for deploy... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037205] Adding "src/gen/cap.agent.Checkpoints.hdbtable" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037208] Adding "src/gen/cap.agent.Checkpoints.hdbtable" for deploy... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037211] Adding "src/gen/cap.agent.PushNotificationConfigs.hdbtable" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037219] Adding "src/gen/cap.agent.PushNotificationConfigs.hdbtable" for deploy... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037223] Adding "src/gen/cap.agent.Tasks.hdbtable" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037227] Adding "src/gen/cap.agent.Tasks.hdbtable" for deploy... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037229] Adding "src/gen/cap.agent.Tasks_inputFiles.hdbtable" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037231] Adding "src/gen/cap.agent.Tasks_inputFiles.hdbtable" for deploy... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037234] Adding "src/gen/cap.agent.Tasks_outputFiles.hdbtable" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037237] Adding "src/gen/cap.agent.Tasks_outputFiles.hdbtable" for deploy... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037245] Adding "src/gen/cds.outbox.Messages.hdbtable" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037250] Adding "src/gen/cds.outbox.Messages.hdbtable" for deploy... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037255] Adding "src/gen/data/my.bookshop-Books.csv" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037272] Adding "src/gen/data/my.bookshop-Books.csv" for deploy... ok (0s 31ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037276] Adding "src/gen/data/my.bookshop-Books.hdbtabledata" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037280] Adding "src/gen/data/my.bookshop-Books.hdbtabledata" for deploy... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037284] Adding "src/gen/data/sap.attachments-ScanStates.csv" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037288] Adding "src/gen/data/sap.attachments-ScanStates.csv" for deploy... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037292] Adding "src/gen/data/sap.attachments-ScanStates.hdbtabledata" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037295] Adding "src/gen/data/sap.attachments-ScanStates.hdbtabledata" for deploy... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037309] Adding "src/gen/data/sap.attachments-ScanStates_texts.csv" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037313] Adding "src/gen/data/sap.attachments-ScanStates_texts.csv" for deploy... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037317] Adding "src/gen/data/sap.attachments-ScanStates_texts.hdbtabledata" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037319] Adding "src/gen/data/sap.attachments-ScanStates_texts.hdbtabledata" for deploy... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037322] Adding "src/gen/localized.sap.attachments.ScanStates.hdbview" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037325] Adding "src/gen/localized.sap.attachments.ScanStates.hdbview" for deploy... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037327] Adding "src/gen/my.bookshop.Books.hdbtable" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037339] Adding "src/gen/my.bookshop.Books.hdbtable" for deploy... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037343] Adding "src/gen/sap.attachments.ScanStates.hdbtable" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037356] Adding "src/gen/sap.attachments.ScanStates.hdbtable" for deploy... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037370] Adding "src/gen/sap.attachments.ScanStates_texts.hdbtable" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037372] Adding "src/gen/sap.attachments.ScanStates_texts.hdbtable" for deploy... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037380] Preparing... ok (0s 627ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037381] Calculating dependencies... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037388] Expanding... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037396] Expanding "src/gen/CatalogMcpService.Books.hdbview"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037400] Expanding "src/gen/CatalogService.Books.hdbview"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037402] Expanding "src/gen/cap.agent.CheckpointWrites.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037411] Expanding "src/gen/cap.agent.Checkpoints.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037413] Expanding "src/gen/CatalogMcpService.Books.hdbview"... ok (0s 10ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037415] Expanding "src/gen/cap.agent.PushNotificationConfigs.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037426] Expanding "src/gen/CatalogService.Books.hdbview"... ok (0s 9ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037429] Expanding "src/gen/cap.agent.Tasks.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037430] Expanding "src/gen/cap.agent.CheckpointWrites.hdbtable"... ok (0s 9ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037453] Expanding "src/gen/cap.agent.Tasks_inputFiles.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037455] Expanding "src/gen/cap.agent.Checkpoints.hdbtable"... ok (0s 9ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037580] Expanding "src/gen/cap.agent.Tasks_outputFiles.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037600] Expanding "src/gen/cap.agent.PushNotificationConfigs.hdbtable"... ok (0s 4ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037603] Expanding "src/gen/cds.outbox.Messages.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037605] Expanding "src/gen/cap.agent.Tasks_inputFiles.hdbtable"... ok (0s 4ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037607] Expanding "src/gen/data/my.bookshop-Books.hdbtabledata"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037621] Expanding "src/gen/cap.agent.Tasks.hdbtable"... ok (0s 4ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037623] Expanding "src/gen/data/sap.attachments-ScanStates.hdbtabledata"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037625] Expanding "src/gen/cap.agent.Tasks_outputFiles.hdbtable"... ok (0s 5ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037627] Expanding "src/gen/data/sap.attachments-ScanStates_texts.hdbtabledata"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037628] Expanding "src/gen/data/my.bookshop-Books.hdbtabledata"... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037633] Expanding "src/gen/data/sap.attachments-ScanStates.hdbtabledata"... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037639] Expanding "src/gen/localized.sap.attachments.ScanStates.hdbview"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037642] Expanding "src/gen/my.bookshop.Books.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037654] Expanding "src/gen/data/sap.attachments-ScanStates_texts.hdbtabledata"... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037656] Expanding "src/gen/sap.attachments.ScanStates.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037660] Expanding "src/gen/cds.outbox.Messages.hdbtable"... ok (0s 4ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037665] Expanding "src/gen/sap.attachments.ScanStates_texts.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037667] Expanding "src/gen/my.bookshop.Books.hdbtable"... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037671] Expanding "src/gen/localized.sap.attachments.ScanStates.hdbview"... ok (0s 4ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037674] Expanding "src/gen/sap.attachments.ScanStates.hdbtable"... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037677] Expanding "src/gen/sap.attachments.ScanStates_texts.hdbtable"... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037685] Expanding... ok (0s 48ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037690] Precompiling... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037700] Precompiling "src/gen/CatalogMcpService.Books.hdbview"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037704] Precompiling "src/gen/CatalogService.Books.hdbview"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037707] Precompiling "src/gen/cap.agent.CheckpointWrites.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037709] Precompiling "src/gen/cap.agent.Checkpoints.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037716] Precompiling "src/gen/CatalogService.Books.hdbview"... ok (0s 6ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037719] Precompiling "src/gen/CatalogMcpService.Books.hdbview"... ok (0s 7ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037725] Precompiling "src/gen/cap.agent.Tasks.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037728] Precompiling "src/gen/cap.agent.PushNotificationConfigs.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037734] Precompiling "src/gen/cap.agent.CheckpointWrites.hdbtable"... ok (0s 6ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037741] Precompiling "src/gen/cap.agent.Checkpoints.hdbtable"... ok (0s 6ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037814] Precompiling "src/gen/cap.agent.Tasks_inputFiles.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037827] Precompiling "src/gen/cap.agent.Tasks_outputFiles.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037829] Precompiling "src/gen/cap.agent.PushNotificationConfigs.hdbtable"... ok (0s 4ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037833] Precompiling "src/gen/cds.outbox.Messages.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037835] Precompiling "src/gen/cap.agent.Tasks_inputFiles.hdbtable"... ok (0s 4ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037837] Precompiling "src/gen/data/my.bookshop-Books.csv"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037840] Precompiling "src/gen/cap.agent.Tasks.hdbtable"... ok (0s 4ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037842] Precompiling "src/gen/data/my.bookshop-Books.hdbtabledata"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037850] Precompiling "src/gen/data/my.bookshop-Books.hdbtabledata"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037859] Precompiling "src/gen/data/my.bookshop-Books.hdbtabledata$0.expand"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037862] Expanded from "src/gen/data/my.bookshop-Books.hdbtabledata" (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037865] Precompiling "src/gen/data/my.bookshop-Books.hdbtabledata$0.expand"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037868] Precompiling "src/gen/data/sap.attachments-ScanStates.csv"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037876] Precompiling "src/gen/cap.agent.Tasks_outputFiles.hdbtable"... ok (0s 5ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037879] Precompiling "src/gen/data/sap.attachments-ScanStates.hdbtabledata"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037882] Precompiling "src/gen/data/sap.attachments-ScanStates.hdbtabledata"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037959] Precompiling "src/gen/data/sap.attachments-ScanStates.hdbtabledata$0.expand"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037971] Expanded from "src/gen/data/sap.attachments-ScanStates.hdbtabledata" (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037974] Precompiling "src/gen/data/my.bookshop-Books.csv"... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037976] Precompiling "src/gen/data/sap.attachments-ScanStates_texts.csv"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037981] Precompiling "src/gen/data/sap.attachments-ScanStates.csv"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037985] Precompiling "src/gen/data/sap.attachments-ScanStates_texts.hdbtabledata"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037988] Precompiling "src/gen/data/sap.attachments-ScanStates_texts.hdbtabledata"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037990] Precompiling "src/gen/data/sap.attachments-ScanStates.hdbtabledata$0.expand"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037993] Precompiling "src/gen/data/sap.attachments-ScanStates_texts.hdbtabledata$0.expand"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.037995] Expanded from "src/gen/data/sap.attachments-ScanStates_texts.hdbtabledata" (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038012] Precompiling "src/gen/localized.sap.attachments.ScanStates.hdbview"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038015] Precompiling "src/gen/data/sap.attachments-ScanStates_texts.csv"... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038032] Precompiling "src/gen/my.bookshop.Books.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038036] Precompiling "src/gen/data/sap.attachments-ScanStates_texts.hdbtabledata$0.expand"... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038039] Precompiling "src/gen/sap.attachments.ScanStates.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038079] Precompiling "src/gen/cds.outbox.Messages.hdbtable"... ok (0s 4ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038085] Precompiling "src/gen/sap.attachments.ScanStates_texts.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038088] Precompiling "src/gen/localized.sap.attachments.ScanStates.hdbview"... ok (0s 4ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038091] Precompiling "src/gen/my.bookshop.Books.hdbtable"... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038201] Precompiling "src/gen/sap.attachments.ScanStates.hdbtable"... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038204] Precompiling "src/gen/sap.attachments.ScanStates_texts.hdbtable"... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038207] Precompiling... ok (0s 29ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038209] Merging... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038211] Merging... ok (0s 15ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038213] Calculating dependencies... ok (0s 92ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038216] Processing work list... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038220] Deploying "src/gen/cap.agent.CheckpointWrites.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038222] Deploying "src/gen/cap.agent.Checkpoints.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038223] Deploying "src/gen/cap.agent.PushNotificationConfigs.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038238] Deploying "src/gen/cap.agent.CheckpointWrites.hdbtable"... ok (0s 132ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038240] Deploying "src/gen/cap.agent.Tasks.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038241] Deploying "src/gen/cap.agent.Checkpoints.hdbtable"... ok (0s 141ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038243] Deploying "src/gen/cap.agent.Tasks_inputFiles.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038246] Deploying "src/gen/cap.agent.PushNotificationConfigs.hdbtable"... ok (0s 141ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038248] Deploying "src/gen/cap.agent.Tasks_outputFiles.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038249] Deploying "src/gen/cap.agent.Tasks.hdbtable"... ok (0s 19ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038251] Deploying "src/gen/cds.outbox.Messages.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038253] Deploying "src/gen/cap.agent.Tasks_inputFiles.hdbtable"... ok (0s 18ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038254] Deploying "src/gen/data/my.bookshop-Books.csv"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038256] Deploying "src/gen/cap.agent.Tasks_outputFiles.hdbtable"... ok (0s 18ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038258] Deploying "src/gen/data/my.bookshop-Books.hdbtabledata"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038259] Deploying "src/gen/data/my.bookshop-Books.hdbtabledata"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038311] Deploying "src/gen/data/sap.attachments-ScanStates.csv"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038316] Deploying "src/gen/cds.outbox.Messages.hdbtable"... ok (0s 18ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038318] Deploying "src/gen/data/sap.attachments-ScanStates.hdbtabledata"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038321] Deploying "src/gen/data/sap.attachments-ScanStates.hdbtabledata"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038332] Deploying "src/gen/data/sap.attachments-ScanStates_texts.csv"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038335] Deploying "src/gen/data/my.bookshop-Books.csv"... ok (0s 10ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038337] Deploying "src/gen/data/sap.attachments-ScanStates_texts.hdbtabledata"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038338] Deploying "src/gen/data/sap.attachments-ScanStates_texts.hdbtabledata"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038340] Deploying "src/gen/my.bookshop.Books.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038358] Deploying "src/gen/data/sap.attachments-ScanStates.csv"... ok (0s 9ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038360] Deploying "src/gen/sap.attachments.ScanStates.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038401] Deploying "src/gen/data/sap.attachments-ScanStates_texts.csv"... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038405] Deploying "src/gen/sap.attachments.ScanStates_texts.hdbtable"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038410] Deploying "src/gen/my.bookshop.Books.hdbtable"... ok (0s 16ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038413] Deploying "src/gen/data/my.bookshop-Books.hdbtabledata$0.expand"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038415] Expanded from "src/gen/data/my.bookshop-Books.hdbtabledata" (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038418] Deploying "src/gen/sap.attachments.ScanStates.hdbtable"... ok (0s 16ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038421] Deploying "src/gen/data/sap.attachments-ScanStates.hdbtabledata$0.expand"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038431] Expanded from "src/gen/data/sap.attachments-ScanStates.hdbtabledata" (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038438] Deploying "src/gen/sap.attachments.ScanStates_texts.hdbtable"... ok (0s 15ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038440] Deploying "src/gen/data/sap.attachments-ScanStates_texts.hdbtabledata$0.expand"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.038442] Expanded from "src/gen/data/sap.attachments-ScanStates_texts.hdbtabledata" (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243154] Inserted 5 records of the data source file "sap.attachments-ScanStates.csv" into the target table "SAP_ATTACHMENTS_SCANSTATES" (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243177] Deploying "src/gen/data/sap.attachments-ScanStates.hdbtabledata$0.expand"... ok (0s 362ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243185] Inserted 180 records of the data source file "sap.attachments-ScanStates_texts.csv" into the target table "SAP_ATTACHMENTS_SCANSTATES_TEXTS" (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243192] Deploying "src/gen/data/sap.attachments-ScanStates_texts.hdbtabledata$0.expand"... ok (0s 378ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243196] Deploying "src/gen/localized.sap.attachments.ScanStates.hdbview"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243200] Inserted 5 records of the data source file "my.bookshop-Books.csv" into the target table "MY_BOOKSHOP_BOOKS" (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243228] Deploying "src/gen/data/my.bookshop-Books.hdbtabledata$0.expand"... ok (0s 378ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243233] Deploying "src/gen/CatalogMcpService.Books.hdbview"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243236] Deploying "src/gen/CatalogService.Books.hdbview"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243239] Deploying "src/gen/localized.sap.attachments.ScanStates.hdbview"... ok (0s 49ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243242] Deploying "src/gen/CatalogMcpService.Books.hdbview"... ok (0s 49ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243245] Deploying "src/gen/CatalogService.Books.hdbview"... ok (0s 49ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243253] Processing work list... ok (0s 626ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243256] Finalizing... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243261] Finalizing... ok (0s 69ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243263] Make succeeded (0 warnings): 21 files deployed (effective 24), 0 files undeployed (effective 0), 0 dependent files redeployed (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243265] Making... ok (1s 537ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243268] Enabling table replication for the container schema "A6059A5D45CD492FA68155272CF79DE7"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243285] Enabling table replication for the container schema "A6059A5D45CD492FA68155272CF79DE7"... ok (0s 6ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243288] Starting make in the container "A6059A5D45CD492FA68155272CF79DE7" with 21 files to deploy, 0 files to undeploy... ok (1s 584ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243419] Deploying to the container "A6059A5D45CD492FA68155272CF79DE7"... ok (1s 841ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243588] No default-access-role handling needed; global role "A6059A5D45CD492FA68155272CF79DE7::access_role" will not be adapted (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.243647] Unlocking the container "A6059A5D45CD492FA68155272CF79DE7"... (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.244004] Unlocking the container "A6059A5D45CD492FA68155272CF79DE7"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.244070] Deployment to container A6059A5D45CD492FA68155272CF79DE7 done [Deployment ID: none]. (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.244533] Deployment ended at 2026-08-27 09:12:33 (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.245137] (3s 409ms) (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.255477] npm notice (STDERR, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.255504] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.255509] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.255524] npm notice To update run: npm install -g npm@12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.255529] npm notice (STDERR, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.307902] Exit status 0 (STDOUT, APP/TASK/deploy)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.931405] Cell 43386be6-c840-4182-9229-17ae14ec6595 stopping instance 5ecf4b8d-e8ee-4fbd-ad53-ce124ba7c3a9 (STDOUT, CELL)#
+#2026 08 27 09:12:35.056#Z#DEBUG#09583b7a-a1f6-11f1-a545-eeee0a98b026.bookshop-agent-db-deployer#flowable-async-job-executor-thread-2671#
+[PollExecuteTaskStatusExecution] fdf06ad7-9a5f-4fb8-a8a9-5143f497d2b5 [2026-08-27T09:12:33.931435] Cell 43386be6-c840-4182-9229-17ae14ec6595 destroying container for instance 5ecf4b8d-e8ee-4fbd-ad53-ce124ba7c3a9 (STDOUT, CELL)#

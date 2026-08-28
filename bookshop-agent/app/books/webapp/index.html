@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books</title>
+    <script type="text/javascript">
+      window["sap-ushell-config"] = {
+        defaultRenderer: "fiori2",
+        renderers: {
+          fiori2: {
+            componentData: {
+              config: {
+                enableSearch: false,
+                rootIntent: "Books-display"
+              }
+            }
+          }
+        },
+        services: {
+          NavTargetResolution: {
+            config: {
+              enableClientSideTargetResolution: true
+            }
+          }
+        },
+        applications: {
+          "Books-display": {
+            title: "Books",
+            description: "Browse the book catalog",
+            additionalInformation: "SAPUI5.Component=bookshop.books",
+            applicationType: "URL",
+            url: ".",
+            navigationMode: "embedded"
+          }
+        }
+      };
+    </script>
+    <script
+      id="sap-ushell-bootstrap"
+      src="https://ui5.sap.com/1.120.28/test-resources/sap/ushell/bootstrap/sandbox.js"
+    ></script>
+    <script
+      id="sap-ui-bootstrap"
+      src="https://ui5.sap.com/1.120.28/resources/sap-ui-core.js"
+      data-sap-ui-theme="sap_horizon"
+      data-sap-ui-resourceroots='{"bookshop.books": "./"}'
+      data-sap-ui-libs="sap.m,sap.ui.core,sap.fe.templates,sap.ushell"
+      data-sap-ui-compatVersion="edge"
+      data-sap-ui-async="true"
+      data-sap-ui-frameOptions="trusted"
+    ></script>
+    <script type="text/javascript">
+      sap.ui.getCore().attachInit(function () {
+        sap.ui.require([
+          "sap/ushell/Container"
+        ], function (Container) {
+          function addAgentButton() {
+            try {
+              var oRenderer = sap.ushell.Container.getRenderer("fiori2");
+              if (!oRenderer || !oRenderer.addHeaderEndItem) {
+                return false;
+              }
+              oRenderer.addHeaderEndItem(
+                "sap.ushell.ui.shell.ShellHeadItem",
+                {
+                  id: "bookshopAgentButton",
+                  icon: "sap-icon://da-2",
+                  tooltip: "Books Agent",
+                  press: function () {
+                    window.open(
+                      window.location.origin + "/catalog-agent/preview/",
+                      "_blank",
+                      "noopener"
+                    );
+                  }
+                },
+                true,
+                false,
+                ["home", "app"]
+              );
+              return true;
+            } catch (e) {
+              return false;
+            }
+          }
+
+          sap.ushell.Container.createRenderer(null, true).then(function (oContent) {
+            oContent.placeAt("content");
+            // Renderer may not expose header APIs synchronously; retry briefly.
+            if (!addAgentButton()) {
+              var iTries = 0;
+              var iTimer = setInterval(function () {
+                iTries++;
+                if (addAgentButton() || iTries > 20) {
+                  clearInterval(iTimer);
+                }
+              }, 300);
+            }
+          });
+        });
+      });
+    </script>
+  </head>
+  <body class="sapUiBody" id="content"></body>
+</html>
