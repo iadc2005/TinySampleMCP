@@ -5,11 +5,14 @@
     "@cap-js/agents": "^0.9.2",
     "@cap-js/hana": "^2",
     "@cap-js/mcp": "^1.4.3",
+    "@sapit/cap-pkce": "^1",
+    "@sap/ams": "^3",
     "@sap/cds": "^9",
     "@sap/xssec": "^4"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^2",
+    "@sap/ams-dev": "^3",
     "@sap/cds-dk": "^10"
   },
   "scripts": {
@@ -38,10 +41,40 @@
           "model": "anthropic--claude-4.6-sonnet"
         }
       },
-      "app-front": true
+      "[development]": {
+        "auth": {
+          "kind": "mocked",
+          "users": {
+            "manager": {
+              "password": "manager",
+              "roles": [
+                "book-manage",
+                "authenticated-user"
+              ]
+            },
+            "reader": {
+              "password": "reader",
+              "roles": [
+                "authenticated-user"
+              ]
+            }
+          }
+        }
+      },
+      "app-front": true,
+      "sapit": {
+        "pkce": {
+          "consent": {
+            "title": "Bookshop Catalog MCP"
+          }
+        }
+      }
     },
     "server": {
       "index": true
     }
+  },
+  "engines": {
+    "node": "^24"
   }
 }

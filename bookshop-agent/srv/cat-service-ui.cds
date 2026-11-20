@@ -1,6 +1,7 @@
 using CatalogService from './cat-service';
 
 annotate CatalogService.Books with @(
+    odata.draft.enabled,
     UI: {
         HeaderInfo: {
             TypeName      : 'Book',

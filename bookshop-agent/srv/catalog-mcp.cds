@@ -1,5 +1,9 @@
 using my.bookshop as my from '../db/schema';
 @mcp
 service CatalogMcpService {
-    @readonly entity Books as projection on my.Books;
+    @(restrict: [
+        { grant: 'READ',                         to: 'authenticated-user' },
+        { grant: ['CREATE', 'UPDATE', 'DELETE'], to: 'book-manage' }
+    ])
+    entity Books as projection on my.Books;
 }

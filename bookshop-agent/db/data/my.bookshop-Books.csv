@@ -1,6 +1,7 @@
 ID,title,author,stock
-1,Wuthering Heights,Emily Brontë,12
-2,Jane Eyre,Charlotte Brontë,11
-3,The Raven,Edgar Allen Poe,333
-4,Eleonora,Edgar Allen Poe,555
-5,Catweazle,Richard Carpenter,22
+a1b2c3d4-0001-4a1a-9c01-000000000001,Wuthering Heights,Emily Brontë,12
+a1b2c3d4-0002-4a1a-9c01-000000000002,Jane Eyre,Charlotte Brontë,11
+a1b2c3d4-0003-4a1a-9c01-000000000003,The Raven,Edgar Allen Poe,333
+a1b2c3d4-0004-4a1a-9c01-000000000004,Eleonora,Edgar Allen Poe,555
+a1b2c3d4-0005-4a1a-9c01-000000000005,Catweazle,Richard Carpenter,22
+

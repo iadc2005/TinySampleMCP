@@ -36,6 +36,10 @@ modules:
             app-identifier: srv
       - name: bookshop-agent-db
       - name: bookshop-agent-aicore
+    deployed-after:
+      - bookshop-agent-ams-policies-deployer
+    properties:
+      AMS_DCL_ROOT: ams/dcl
 
   - name: bookshop-agent-db-deployer
     type: hdb
@@ -82,6 +86,50 @@ modules:
       supported-platforms:
         []
 
+  - name: bookshop-agent-ams-policies-deployer
+    type: javascript.nodejs
+    path: gen/policies
+    parameters:
+      buildpack: nodejs_buildpack
+      no-route: true
+      no-start: true
+      tasks:
+        - name: deploy-dcl
+          command: npm start
+          memory: 512M
+    requires:
+      - name: bookshop-agent-ias
+        parameters:
+          config:
+            credential-type: X509_GENERATED
+            app-identifier: ams-policy-deployer
+
+  - name: bookshop-agent
+    type: approuter.nodejs
+    path: app/router
+    requires:
+      - name: bookshop-agent-ias
+        parameters:
+          config:
+            credential-type: X509_GENERATED
+            app-identifier: approuter
+      - name: srv-api
+        group: destinations
+        properties:
+          url: ~{srv-cert-url}
+          forwardAuthCertificates: true
+          forwardAuthToken: true
+          strictSSL: true
+    parameters:
+      keep-existing-routes: true
+      disk-quota: 256M
+      memory: 256M
+    provides:
+      - name: app-api
+        properties:
+          app-protocol: ${protocol}
+          app-uri: ${default-uri}
+
 resources:
   - name: bookshop-agent-ias
     type: org.cloudfoundry.managed-service
@@ -98,9 +146,29 @@ resources:
             resource: urn:sap:identity:application:provider:name:bookshop-agent-ias-api
         display-name: bookshop-agent
         oauth2-configuration:
+          # Public (no-secret) client enables PKCE for interactive MCP clients
+          # such as SAP Joule Work Desktop.
+          public-client: true
+          grant-types:
+            - authorization_code
+            - refresh_token
           token-policy:
             access-token-format: "jwt"
+          redirect-uris:
+            - http://localhost:5000/login/callback?authType=ias
+            - ~{app-api/app-protocol}://*~{app-api/app-uri}/login/callback
+            # --- MCP client (Joule Work Desktop) PKCE callbacks ---
+            # TODO: replace the placeholders below with the actual redirect URIs
+            # that SAP Joule Work Desktop uses for its OAuth 2.0 PKCE callback.
+            - http://localhost/callback
+            - http://127.0.0.1/callback
+          post-logout-redirect-uris:
+            - ~{app-api/app-protocol}://*~{app-api/app-uri}/*/logout.html
         xsuaa-cross-consumption: true
+        authorization:
+          enabled: true
+    requires:
+      - name: app-api
   - name: bookshop-agent-db
     type: com.sap.xs.hdi-container
     parameters:
@@ -115,4 +183,3 @@ resources:
     type: org.cloudfoundry.existing-service
     parameters:
       service-name: default_aicore
-
